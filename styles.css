@@ -14,9 +14,8 @@ html {
 }
 
 body {
-    background: #dfdfdf; /* Light gray background */
-    color: #000000; /* Dark neutral color for text */
-}
+    background: #dfdfdf;
+    color: #000000; 
 
 #header {
     width: 100%;
@@ -50,7 +49,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000; /* Dark neutral color for text */
+    color: #000000; 
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -60,7 +59,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #4179a7; /* Neutral color for underline */
+    background: #4179a7; 
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -82,14 +81,14 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-    color: #4179a7; /* Neutral color */
+    color: #4179a7; 
 }
 
 /* ----- About ----- */
 
 #about {
     padding: 80px 0;
-    color: #000000; /* Dark neutral color for text */
+    color: #000000; 
 }
 
 .row {
@@ -103,9 +102,14 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 img {
-    width: 100%;
+    width: 100%;            
+    height: 400px;      
+    object-fit: cover;     
+    object-position: bottom;
     border-radius: 15px;
+
 }
+
 
 .about-col-2 {
     flex-basis: 60%;
@@ -124,7 +128,7 @@ li ul {
 .sub-title {
     font-size: 60px;
     font-weight: 600;
-    color: #4179a7; /* Neutral color */
+    color: #4179a7; 
 }
 
 .tab-titles {
@@ -144,7 +148,7 @@ li ul {
     content: '';
     width: 0;
     height: 3px;
-    background: #4179a7; /* Neutral color */
+    background: #4179a7;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -161,7 +165,7 @@ li ul {
 }
 
 .tab-contents ul li span {
-    color: #4179a7; /* Neutral color */
+    color: #4179a7;
     font-size: 16px;
 }
 
@@ -176,8 +180,8 @@ li ul {
 .resume-download {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #888; /* Neutral color */
-    color: #dfdfdf; /* Light color for contrast */
+    background-color: #888;
+    color: #dfdfdf; 
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -185,7 +189,7 @@ li ul {
 }
 
 .resume-download:hover {
-    background-color: #555; /* Slightly darker neutral color */
+    background-color: #555; 
 }
 
 /*------interests------*/
@@ -202,7 +206,7 @@ li ul {
 }
 
 .interests-list div {
-    background-color: #cbcbcb; /* Light neutral color */
+    background-color: #cbcbcb;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -223,14 +227,14 @@ li ul {
 
 .interests-list div a {
     text-decoration: none;
-    color: #000000; /* Dark neutral color */
+    color: #000000; 
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
 
 .interests-list div:hover {
-    background: #aaa; /* Slightly darker neutral color */
+    background: #aaa;
     transform: translateY(-10px);
 }
 
@@ -255,8 +259,8 @@ li ul {
 
 .portfolio-image {
     width: 100%;
-    height: 350px; /* Set a fixed height */
-    object-fit: cover; /* Ensure the image covers the set dimensions */
+    height: 350px;
+    object-fit: cover; 
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -265,7 +269,7 @@ li ul {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #888); /* Neutral gradient */
+    background: linear-gradient(rgba(0,0,0,0.6), #888); 
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -288,21 +292,16 @@ li ul {
 
 .layer a {
     margin-top: 20px;
-    color: #888; /* Neutral color */
+    color: #888;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
-    background: #dfdfdf; /* Light color for contrast */
+    background: #dfdfdf;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     text-align: center;
 }
-
-/*.work:hover img {
-    transform: scale(1.1);
-}
-*/
 
 .work:hover .portfolio-image {
     transform: scale(1.1);
@@ -315,23 +314,23 @@ li ul {
 .work:hover .layer,
 .work:hover .layer h3,
 .work:hover .layer a {
-    color: #ffffff; /* Change text color to white on hover */
+    color: #ffffff;
 }
 
 .btn {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #888; /* Neutral color */
+    border: 1px solid #888; 
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: #000000; /* Dark neutral color */
+    color: #000000;
     transition: background 0.5s;
 }
 
 .btn:hover {
-    background: #888; /* Neutral color */
+    background: #888; 
     color: #ffffff;
 }
 
@@ -347,18 +346,18 @@ li ul {
 }
 
 .contact-left p a {
-    color: #000000; /* Dark neutral color */
+    color: #000000; 
     text-decoration: none;
     transition: color 0.5s;
 }
 
 contact-left p a:hover {
-    color: rgb(102, 102, 102); /* Neutral color on hover */
+    color: rgb(102, 102, 102);
     text-decoration: none;
 }
 
 .contact-left p i {
-    color: rgb(49, 49, 49); /* Neutral color */
+    color: rgb(49, 49, 49);
     margin-right: 15px;
     font-size: 25px;
 }
@@ -371,19 +370,19 @@ contact-left p a:hover {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: rgb(49, 49, 49); /* Slightly darker neutral color */
+    color: rgb(49, 49, 49);
     display: inline-block;
     transition: transform 0.5s;
 }
 
 .social-icons a:hover {
-    color: #888; /* Neutral color */
+    color: #888;
     transform: translateY(-5px);
 }
 
 .resume a {
-    background-color: rgb(184, 184, 184); /* Light neutral color */
-    color: #000000; /* Dark neutral color */
+    background-color: rgb(184, 184, 184); 
+    color: #000000; 
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -393,8 +392,8 @@ contact-left p a:hover {
 }
 
 .resume a:hover {
-    background-color: #888; /* Neutral color */
-    color: #dfdfdf; /* Light color */
+    background-color: #888; 
+    color: #dfdfdf; 
 }
 
 
@@ -421,7 +420,7 @@ nav .fa-solid{
 
     }
     nav ul{
-        background: #ff004f;
+        background: #cbcbcb;
         position: fixed;
         top: 0;
         right: -200px;
@@ -467,12 +466,5 @@ nav .fa-solid{
         margin-left: 50px; 
         
     }
-    
 
 }
-
-
-}
-
-
-
